@@ -84,6 +84,8 @@ if ($result) {
                                             <input type="hidden" name="id" value="<?php echo $course['idMateri']; ?>">
                                             <button type="submit" class="btn btn-danger mr-2"><i class="fas fa-trash"></i></button>
                                         </form>
+                                        <a href="editMateri.php?id=<?php echo $course['idMateri']; ?>" class="btn btn-warning ml-1"><i class="fas fa-edit"></i></a>
+                                        </div>
                                     </div>
                                     </td>
                                 </tr>

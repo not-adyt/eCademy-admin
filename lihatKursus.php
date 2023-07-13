@@ -77,7 +77,8 @@ while ($row = mysqli_fetch_assoc($result)) {
                                     <button type="submit" class="btn btn-danger mr-2"><i class="fas fa-trash"></i></button>
                                 </form>
                                 <a href="detailKursus.php?id=<?php echo $course['idKursus']; ?>" class="btn btn-primary"><i class="fas fa-info-circle"></i></a>
-                            </div>
+                                <a href="editKursus.php?id=<?php echo $course['idKursus']; ?>" class="btn btn-warning ml-2"><i class="fas fa-edit"></i></a>
+                              </div>
                         </td>
                     </tr>
                 <?php endforeach; ?>
