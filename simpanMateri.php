@@ -10,7 +10,7 @@ $sql = "INSERT INTO materi (judulMateri, deskripsiMateri, linkMateri, idKursus) 
 
 if (mysqli_query($conn, $sql)) {
     echo "<script>alert('Materi berhasil ditambahkan!');</script>";
-    echo "<script>window.location.href = 'index.php';</script>";
+    echo "<script>window.location.href = 'index.php?url=lihatMateri.php';</script>";
     exit();
 } else {
     echo "Terjadi kesalahan saat menambahkan materi: " . mysqli_error($conn);
