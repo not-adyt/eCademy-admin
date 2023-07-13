@@ -28,4 +28,7 @@ then simply u can use it!
 
   - ADD - to add new courses and courses material, including cousres and materials title, description, duration
   - UPDATE - edit the information about the courses or materials
-  - DELETE - delete a course or delete an irrelevant materials in a course 
+  - DELETE - delete a course or delete an irrelevant materials in a course
+
+ - if admin delete a course that had materials in it, the materials will automatically get removed too
+   
