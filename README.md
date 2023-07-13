@@ -1,11 +1,20 @@
 # eCademy-admin
 made for internship project test at yhc
 
-Membuat kursus baru dengan judul, deskripsi, dan durasi.
-Melihat daftar kursus beserta detailnya.
-Mengedit informasi kursus seperti judul, deskripsi, dan durasi.
-Menghapus kursus yang tidak relevan.
-Menambahkan materi ke dalam kursus dengan judul, deskripsi, dan link embed materi.
-Melihat daftar materi dalam sebuah kursus.
-Mengedit informasi materi seperti judul, deskripsi, dan link embed materi.
-Menghapus materi yang tidak relevan dalam sebuah kursus
+# getting started
+requirements
+php v.8
+
+import ecademy.sql to the localhost
+
+open index.php
+
+then simply u can use it!
+
+# features
+
+- Admin (in this case, Ardi) can do the simple CRUD operations.
+
+  - ADD - to add new courses and courses material, including cousres and materials title, description, duration
+  - UPDATE - edit the information about the courses or materials
+  - DELETE - delete a course or delete an irrelevant materials in a course 
