@@ -9,7 +9,7 @@ $sql = "INSERT INTO kursus (judulKursus, deskripsiKursus, durasiKursus) VALUES (
 
 if (mysqli_query($conn, $sql)) {
     echo "<script>alert('Kursus berhasil ditambahkan!');</script>";
-    echo "<script>window.location.href = 'index.php?url=tambahKursus';</script>";
+    echo "<script>window.location.href = 'index.php?url=lihatKursus';</script>";
     exit();
 } else {
     echo "Terjadi kesalahan saat menambahkan kursus: " . mysqli_error($conn);
