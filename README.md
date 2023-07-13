@@ -13,7 +13,7 @@ then simply u can use it!
 
 # features
 
-- Admin (in this case, Ardi) can do the simple CRUD operations.
+- Admin (in this case, Ardi) can do the simple CRUD operations for online course site
 
   - ADD - to add new courses and courses material, including cousres and materials title, description, duration
   - UPDATE - edit the information about the courses or materials
