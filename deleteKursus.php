@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $deleteKursus = "DELETE FROM kursus WHERE idKursus = '$id'";
     if (mysqli_query($conn, $deleteKursus)) {
         echo "<script>alert('Kursus berhasil dihapus beserta materinya!');</script>";
-        echo "<script>window.location.href = 'index.php';</script>";
+        echo "<script>window.location.href = 'index.php?url=lihatKursus';</script>";
         exit();
     } else {
         echo "Terjadi kesalahan saat menghapus kursus: " . mysqli_error($conn);
